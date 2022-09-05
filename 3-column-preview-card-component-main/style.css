@@ -29,12 +29,28 @@ body {
   min-height: 100vh;
 }
 
+/* Containers */
+
 .container {
   width: 300px;
   height: 450px;
   padding-top: 50px;
   padding-left: 50px;
   padding-right: 40px;
+}
+
+.container span, i {
+  font-size: 20px;
+  color: white;
+  margin-left: -5px;
+  opacity: 0.6;
+}
+
+.fa-circle {
+  font-size: 30px;
+  margin-left: 3px;
+  color: black;
+  opacity: 0.2;
 }
 
 .container p {
@@ -47,7 +63,7 @@ body {
   color: white;
   font-size: 2rem;
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: bolder;
   margin-top: 30px;
   margin-bottom: 30px;
 }
@@ -68,20 +84,35 @@ body {
   border-top-right-radius: 5px;
 }
 
+/* Containers End */
+
+
+/* Buttons */
+
 .btn {
   padding: 10px 30px;
   border-top-left-radius: 50px;
   border-bottom-left-radius: 50px;
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
+  border: none;
+  cursor: pointer;
+  font-weight: bolder;
 }
 
+#btn1 {
+  color: var(--Bright-orange);
+}
 
+#btn2 {
+  color: var(--Dark-cyan);
+}
 
+#btn3 {
+  color: var(--Very-dark-cyan);
+}
 
-
-
-
+/* Buttons End*/
 
 
 
